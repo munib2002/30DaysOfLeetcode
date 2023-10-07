@@ -6,7 +6,8 @@
 const average = function (salary) {
     let total = 0;
 
-    let min = (max = salary[0]);
+    let min = salary[0];
+    let max = min;
 
     for (const s of salary) {
         total += s;
